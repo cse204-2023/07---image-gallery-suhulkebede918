@@ -1,1 +1,60 @@
+.container{
+    margin: 20px auto;
+    display: block;
+    width: 800px;
+}
+
+.container img {
+    margin: 2px;
+    height: 320px;
+    width: 240px;
+    border: 2px solid blueviolet;
+}
+
+.container img:hover{
+    opacity: 0.4;
+}
+
+#icon{
+    display:none;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+
+#icon-container{
+    width:1000px;
+    height:700px;
+    margin: 60px auto;
+}
+
+#icon img{
+    width:100%;
+    height:100%;
+}
+
+.buttons{
+    color:red;
+    font-size: 48px;
+}
+
+#icon #left{
+    position:absolute;
+    top:350px;
+    left:230px;
+}
+
+#icon #right{
+    position:absolute;
+    top:350px;
+    right:230px;
+}
+
+#icon #close{
+    position:absolute;
+    margin-top:10px;
+    margin-left:25px;
+}
+
 
